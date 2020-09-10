@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5073C64E250A9E270067737D /* VMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073C64D250A9E270067737D /* VMNavigationController.swift */; };
+		5073C650250A9FBD0067737D /* Koinu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073C64F250A9FBD0067737D /* Koinu.swift */; };
+		5073C652250AA0050067737D /* UIViewController+Koinu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073C651250AA0050067737D /* UIViewController+Koinu.swift */; };
+		5073C654250AA04E0067737D /* Array+Koinu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073C653250AA04E0067737D /* Array+Koinu.swift */; };
+		5073C656250AA0990067737D /* Koinu+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073C655250AA0990067737D /* Koinu+.swift */; };
 		50A6D55425090B9B007C977B /* Koinu.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A6D55225090B9B007C977B /* Koinu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50A6D55D25090E1E007C977B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6D55C25090E1E007C977B /* UIKit.framework */; };
 		50A6D55F25090E24007C977B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6D55E25090E24007C977B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5073C64D250A9E270067737D /* VMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMNavigationController.swift; sourceTree = "<group>"; };
+		5073C64F250A9FBD0067737D /* Koinu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koinu.swift; sourceTree = "<group>"; };
+		5073C651250AA0050067737D /* UIViewController+Koinu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Koinu.swift"; sourceTree = "<group>"; };
+		5073C653250AA04E0067737D /* Array+Koinu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Koinu.swift"; sourceTree = "<group>"; };
+		5073C655250AA0990067737D /* Koinu+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Koinu+.swift"; sourceTree = "<group>"; };
 		50A6D54F25090B9B007C977B /* Koinu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koinu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A6D55225090B9B007C977B /* Koinu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Koinu.h; sourceTree = "<group>"; };
 		50A6D55325090B9B007C977B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +63,7 @@
 		50A6D55125090B9B007C977B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				50A6D59025091A88007C977B /* Extension */,
+				50A6D59025091A88007C977B /* Extensions */,
 				50A6D58F25091A82007C977B /* Core */,
 				50A6D55225090B9B007C977B /* Koinu.h */,
 				50A6D55325090B9B007C977B /* Info.plist */,
@@ -73,15 +83,20 @@
 		50A6D58F25091A82007C977B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5073C64D250A9E270067737D /* VMNavigationController.swift */,
+				5073C64F250A9FBD0067737D /* Koinu.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		50A6D59025091A88007C977B /* Extension */ = {
+		50A6D59025091A88007C977B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5073C651250AA0050067737D /* UIViewController+Koinu.swift */,
+				5073C653250AA04E0067737D /* Array+Koinu.swift */,
+				5073C655250AA0990067737D /* Koinu+.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5073C656250AA0990067737D /* Koinu+.swift in Sources */,
+				5073C654250AA04E0067737D /* Array+Koinu.swift in Sources */,
+				5073C652250AA0050067737D /* UIViewController+Koinu.swift in Sources */,
+				5073C650250A9FBD0067737D /* Koinu.swift in Sources */,
+				5073C64E250A9E270067737D /* VMNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
