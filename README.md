@@ -1,5 +1,12 @@
 # Koinu
 
+<p align="center">
+  <a href="https://cocoapods.org/pods/Koinu"><img src="https://img.shields.io/cocoapods/v/Koinu.svg?style=for-the-badge"/></a>
+  <a href="https://swift.org/package-manager/"><img src="https://img.shields.io/badge/SPM-compatible-orange?style=for-the-badge"></a> 
+  <a href="https://cocoapods.org/pods/Koinu"><img src="https://img.shields.io/cocoapods/l/Koinu.svg?style=for-the-badge"/></a>
+  <a href="https://cocoapods.org/pods/Koinu"><img src="https://img.shields.io/cocoapods/p/Koinu.svg?style=for-the-badge"/></a>
+</p>
+
 `Koinu` 是一个自定义 `UINavigationController` 框架，通过对 `UIViewController` 进行包装，使每个  `UIViewController` 独立的维护各自的 `UINavigationBar` 的样式，从而避免了在 `UIViewController` 的 `viewWillAppear(_:)` 与 `viewDidDisappear(_:)` 方法中修改 `UINavigationBar` 样式所导致的问题。
 
 ## 示例代码
