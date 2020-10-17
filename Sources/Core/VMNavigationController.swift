@@ -310,10 +310,10 @@ extension VMNavigationController: UINavigationControllerDelegate {
     if !isRootViewController, unwrapViewController.isViewLoaded {
       let hasSetLeftBarButtonItem = unwrapViewController.navigationItem.leftBarButtonItem != nil
       
-      if hasSetLeftBarButtonItem && unwrapViewController.vm.disableInteractivePop != true {
+      if hasSetLeftBarButtonItem && unwrapViewController.vm.disableInteractivePop == nil {
         unwrapViewController.vm.disableInteractivePop = true
       }
-      else if unwrapViewController.vm.disableInteractivePop != true {
+      else if unwrapViewController.vm.disableInteractivePop == nil {
         unwrapViewController.vm.disableInteractivePop = false
       }
       

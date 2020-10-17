@@ -17,7 +17,7 @@ extension UIViewController: KoinuCompatible {
 extension UIViewController {
   
   /// 重写此方法以提供 `UINavigationBar` 的自定义子类, 默认返回 nil
-  public func navigationBarClass() -> AnyClass? {
+  @objc open func navigationBarClass() -> AnyClass? {
     return nil
   }
 }

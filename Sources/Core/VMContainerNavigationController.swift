@@ -61,7 +61,7 @@ public class VMContainerNavigationController: UINavigationController {
     super.viewDidLayoutSubviews()
     
     let visibleViewController = self.visibleViewController
-    if visibleViewController?.vm.disableInteractivePop != true {
+    if visibleViewController?.vm.disableInteractivePop == nil {
       let hasLeftBarButtonItem = visibleViewController?.navigationItem.leftBarButtonItem != nil
       let isNavigationBarHidden = self.isNavigationBarHidden
       visibleViewController?.vm.disableInteractivePop = isNavigationBarHidden || hasLeftBarButtonItem
@@ -206,7 +206,7 @@ public class VMContainerNavigationController: UINavigationController {
   
   public override func setNavigationBarHidden(_ hidden: Bool, animated: Bool) {
     super.setNavigationBarHidden(hidden, animated: animated)
-    if self.visibleViewController?.vm.disableInteractivePop != true {
+    if self.visibleViewController?.vm.disableInteractivePop == nil {
       self.visibleViewController?.vm.disableInteractivePop = hidden
     }
   }
