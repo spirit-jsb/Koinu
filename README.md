@@ -1,4 +1,4 @@
-# Koinu
+# Koinu (小犬)
 
 <p align="center">
   <a href="https://cocoapods.org/pods/Koinu"><img src="https://img.shields.io/cocoapods/v/Koinu.svg?style=for-the-badge"/></a>
